@@ -1,5 +1,5 @@
 export default class ViewNames {
-    DOM_TABLE = document.querySelector('.city-table table');
+    DOM_TABLE = document.querySelector('.names-table table');
 
     renderData({ formatData, names }) {
         const html = `
